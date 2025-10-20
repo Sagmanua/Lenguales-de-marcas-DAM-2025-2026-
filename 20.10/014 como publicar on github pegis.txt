@@ -1,0 +1,8 @@
+1.vamos a github
+2.creamos repository
+3.-0 bioen
+    3.1 lo cloamos en nuesto equipo con github desktop
+    3.2o bioen subimos los archivo a mano
+4.nos vamos setting en el repository
+5.Activamos pages desde ñe repositore
+6.esperare cinco minutos

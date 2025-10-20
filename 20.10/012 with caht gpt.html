@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Bohdan Sydorenko</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* --- Mejora de tipografía y colores --- */
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: #32CD32; /* Verde lima más visible */
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+/* --- Responsivo --- */
+@media (max-width: 700px) {
+    header, main, footer {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .bloque {
+        flex-direction: column;
+    }
+
+    .bloque img {
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    nav ul li a {
+        width: 100%;
+    }
+
+    #portafolio {
+        grid-template-columns: 1fr 1fr; /* Menos columnas en móviles */
+    }
+}
+
+@media (max-width: 400px) {
+    #portafolio {
+        grid-template-columns: 1fr; /* Una columna en móviles muy pequeños */
+    }
+}
+
+/* --- Efectos de hover para imágenes y artículos del portafolio --- */
+#portafolio article:hover,
+.bloque img:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+}
+
+/* --- Formularios más bonitos --- */
+input, textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0e250e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #228B22;
+    transform: scale(1.05);
+}
+
+/* --- Iframe con altura --- */
+iframe {
+    height: 300px;
+    border-radius: 8px;
+}
+
+/* --- Bloques del portafolio más agradables --- */
+#portafolio article {
+    background-color: #f0fff0;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+</style>
+
+</head>
+<body>
+<header>
+    <h1>Bohdan Sydorenko</h1>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre">Sobre mí</a></li>
+            <li><a href="#docente">Docente</a></li>
+            <li><a href="#desarrollo">Desarrollo</a></li>
+            <li><a href="#diseno">Diseño</a></li>
+            <li><a href="#portafolio">Portafolio</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+<section id="inicio">
+    <h3>Inicio</h3>
+    <img src="e686042b-3fc1-483d-bb99-4943f0596dfa.jfif" alt="Pikachu">
+</section>
+
+<section id="sobre">
+    <h3>Sobre mí</h3>
+    <p>Hola, soy Bohdan Sydorenko, entusiasta de la programación, IA y diseño digital.</p>
+</section>
+
+<section id="docente">
+    <h3>Docente</h3>
+    <div class="bloque">
+        <img src="descarga.jfif" alt="Imagen docente">
+        <p>Experiencia docente en tecnología y desarrollo web.</p>
+    </div>
+</section>
+
+<section id="desarrollo">
+    <h3>Desarrollo</h3>
+    <div class="bloque">
+        <img src="descarga.jfif" alt="Imagen desarrollo">
+        <p>Proyectos web con HTML, CSS, JavaScript y aprendizaje automático.</p>
+    </div>
+</section>
+
+<section id="diseno">
+    <h3>Diseño</h3>
+    <div class="bloque">
+        <img src="descarga.jfif" alt="Imagen diseño">
+        <p>Diseño interfaces modernas y funcionales.</p>
+    </div>
+</section>
+
+<section id="portafolio">
+    <h3>Portafolio</h3>
+    <div>
+        <img src="descarga.jfif" alt="Proyecto 1">
+        <img src="descarga.jfif" alt="Proyecto 2">
+        <img src="descarga.jfif" alt="Proyecto 3">
+    </div>
+</section>
+
+<section id="contacto">
+    <h3>Contacto</h3>
+    <form>
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+</main>
+
+<footer>
+    <a href="#">Telegram</a>
+    <a href="https://github.com/Sagmanua" target="_blank">GitHub</a>
+</footer>
+</body>
+</html>

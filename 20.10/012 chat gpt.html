@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Bohdan Sydorenko</title>
+    <meta name="description" content="Portafolio personal de Bohdan Sydorenko, especializado en programación, IA y diseño.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="programación, curso, diseño, IA, big data">
+    <meta name="author" content="Bohdan Sydorenko">
+    <link rel="icon" href="descarga.jfif" type="image/jfif">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Portafolio de Bohdan Sydorenko">
+    <meta property="og:description" content="Desarrollador web y diseñador.">
+    <meta property="og:image" content="descarga.jfif">
+    <meta property="og:url" content="https://tuweb.com">
+    <meta property="og:type" content="website">
+
+    <style>
+        @font-face {
+            font-family: "ubuntu";
+            src: url(UnifrakturCook-Bold.ttf);
+        }
+
+        body {
+            background-color: #FFF5EE;
+            font-family: ubuntu, sans-serif;
+        }
+
+        h1, h2, h3 {
+            color: #90EE90;
+        }
+
+        header, main, footer {
+            width: 600px;
+            background-color: white;
+            margin: auto;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 5px;
+            justify-content: center;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            background-color: #0e250e;
+            padding: 11px;
+            font-size: 10px;
+            text-transform: uppercase;
+            display: block;
+            width: 65px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #228B22;
+        }
+
+        #inicio img {
+            width: 100%;
+        }
+
+        .bloque {
+            display: flex;
+            gap: 20px;
+        }
+
+        .bloque img {
+            flex: 1;
+            width: 50%;
+            height: auto;
+        }
+
+        .bloque p {
+            flex: 1;
+            font-size: 12px;
+            text-align: justify;
+        }
+
+        #desarrollo .bloque {
+            flex-direction: row-reverse;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        footer a {
+            margin: 0 10px;
+            color: #0e250e;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        iframe {
+            width: 100%;
+            border: 0;
+        }
+
+        input, textarea {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+       
+        /* Portafolio limpio y centrado */
+        #portafolio {
+            display: flex;
+            justify-content: space-around; /* distribuye los proyectos horizontalmente */
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        #portafolio article {
+            display: flex;
+            flex-direction: column; /* organiza título, descripción y imagen verticalmente */
+            align-items: center;    /* centra horizontalmente */
+            background-color: #f0fff0;
+            padding: 10px;
+            border-radius: 8px;
+            width: 180px; /* ancho fijo para cada proyecto */
+            text-align: center;
+        }
+
+        #portafolio article h4 {
+            font-family: 'ubuntu', sans-serif;
+            color: #90EE90;
+            margin-bottom: 5px;
+        }
+
+        #portafolio article p {
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+
+        #portafolio article img {
+            width: 100px; /* ajusta tamaño de la imagen */
+            height: auto;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="color: red;">Bohdan Sydorenko</h1>
+        <h2>Pikachu</h2>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre mí</a></li>
+                <li><a href="#docente">Docente</a></li>
+                <li><a href="#desarrollo">Desarrollo</a></li>
+                <li><a href="#diseno">Diseño</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h3>Inicio</h3>
+            <img src="e686042b-3fc1-483d-bb99-4943f0596dfa.jfif" alt="Imagen de Pikachu">
+            <video src="pokemon-pokeplush.mp4" controls></video>
+        </section>
+
+        <section id="sobre">
+            <h3>Sobre mí</h3>
+            <p>Hola, soy Bohdan Sydorenko, un entusiasta de la programación, la inteligencia artificial y el diseño digital. Me apasiona aprender y aplicar nuevas tecnologías para crear soluciones innovadoras.</p>
+        </section>
+
+        <section id="docente">
+            <h3>Docente</h3>
+            <div class="bloque">
+                <img src="descarga.jfif" alt="Pikachu imagen 1">
+                <p>Experiencia docente en formación tecnológica y digital, con enfoque en desarrollo web y pensamiento computacional.</p>
+            </div>
+        </section>
+
+        <section id="desarrollo">
+            <h3>Desarrollo</h3>
+            <div class="bloque">
+                <img src="descarga.jfif" alt="Pikachu imagen 2">
+                <p>Desarrollo proyectos web usando HTML, CSS, JavaScript y frameworks modernos. Apasionado por el aprendizaje automático y el análisis de datos.</p>
+            </div>
+        </section>
+
+        <section id="diseno">
+            <h3>Diseño</h3>
+            <div class="bloque">
+                <img src="descarga.jfif" alt="Pikachu imagen 3">
+                <p>Diseño interfaces limpias, modernas y funcionales. La estética y la usabilidad son mis prioridades al crear experiencias digitales.</p>
+            </div>
+        </section>
+
+        <section id="portafolio">
+            <h3>Portafolio</h3>
+            <div class="bloque">
+                <article>
+                    <h4>Proyecto 1</h4>
+                    <p>Descripción del proyecto.</p>
+                    <img src="descarga.jfif" alt="Proyecto 1">
+                </article>
+                <article>
+                    <h4>Proyecto 2</h4>
+                    <p>Descripción del proyecto.</p>
+                    <img src="descarga.jfif" alt="Proyecto 2">
+                </article>
+                <article>
+                    <h4>Proyecto 3</h4>
+                    <p>Descripción del proyecto.</p>
+                    <img src="descarga.jfif" alt="Proyecto 3">
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <div class="bloque"></div>
+            <h3>Contacto</h3>
+            <iframe src="https://www.google.com/maps/embed?..."></iframe>
+            <form>
+                <label for="nombre">Introduce tu nombre</label>
+                <input type="text" id="nombre" name="nombre">
+
+                <label for="email">Introduce tu email</label>
+                <input type="email" id="email" name="email">
+
+                <label for="mensaje">Introduce tu mensaje</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#">Telegram</a>
+        <a href="https://github.com/Sagmanua" target="_blank">GitHub</a>
+    </footer>
+</body>
+</html>

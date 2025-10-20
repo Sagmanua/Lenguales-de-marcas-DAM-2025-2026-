@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bohdan Sydorenko</title>
+    <meta name="description" content="fadfafdfa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="programacion, curso, diseño, IA, big data">
+    <meta name="author" content="Bohdan Sydorenko">
+    <link rel="icon" href="descarga.jfif" type="image/jfif">
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #FFF5EE;
+        }
+        header, main, footer {
+            width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 5px;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            background-color: #0e250e;
+            padding: 11px;
+            text-align: center;
+            display: block;
+            width: 65px;
+            font-size: 10px;
+            text-transform: uppercase;
+        }
+        #inicio img {
+            width: 100%;
+        }
+        .bloque {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .bloque img {
+            flex: 1;
+            width: 50%;
+        }
+        .bloque p {
+            flex: 1;
+        }
+        #portafolo article {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+        #portafolo img {
+            width: 100%;
+        }
+        label, input, textarea {
+            display: block;
+            width: 100%;
+            margin-top: 10px;
+        }
+        textarea { height: 100px; }
+        footer { text-align: center; }
+        footer a { margin: 0 10px; }
+        @media (max-width:700px){
+            .bloque { flex-direction: column; }
+            .bloque img { width: 100%; }
+            header, main, footer { width: 90%; }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1 style="color:red;">Bohdan Sydorenko</h1>
+    <h2>Picachu</h2>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sombre">Sobre mí</a></li>
+            <li><a href="#docente">Docente</a></li>
+            <li><a href="#desarrollo">Desarrollo</a></li>
+            <li><a href="#diseño">Diseño</a></li>
+            <li><a href="#portafolo">Portafolio</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+<section id="inicio">
+    <h3>Inicio</h3>
+    <img src="e686042b-3fc1-483d-bb99-4943f0596dfa.jfif" alt="Picachu image">
+    <video src="pokemon-pokeplush.mp4" controls></video>
+</section>
+
+<section id="sombre">
+    <h3>Sobre mí</h3>
+    <p>Parece que tu solicitud está incompleta. ¿Podrías proporcionar más detalles sobre lo que te gustaría escribir "sobre mí"?</p>
+</section>
+
+<section id="docente">
+    <h3>Docente</h3>
+    <div class="bloque">
+        <img src="descarga.jfif" alt="Picachu image 1">
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
+    </div>
+</section>
+
+<section id="desarrollo">
+    <h3>Desarrollo</h3>
+    <div class="bloque">
+        <img src="descarga.jfif" alt="Picachu image 2">
+        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+    </div>
+</section>
+
+<section id="diseño">
+    <h3>Diseño</h3>
+    <div class="bloque">
+        <img src="descarga.jfif" alt="Picachu image 3">
+        <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae.</p>
+    </div>
+</section>
+
+<section id="portafolo">
+    <h3>Portafolio</h3>
+    <article>
+        <h4>Descripción del portafolio</h4>
+        <p>Descripción del elemento</p>
+        <img src="descarga.jfif" alt="Picachu image 4">
+    </article>
+    <article>
+        <h4>Descripción del portafolio</h4>
+        <p>Descripción del elemento</p>
+        <img src="descarga.jfif" alt="Picachu image 5">
+    </article>
+    <article>
+        <h4>Descripción del portafolio</h4>
+        <p>Descripción del elemento</p>
+        <img src="descarga.jfif" alt="Picachu image 6">
+    </article>
+</section>
+
+<section id="contacto">
+    <h3>Contacto</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1539.2980274228087!2d-0.4095772!3d39.501035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604507747afac7%3A0x4fc76cbfb40a3b82!2sBurger%20King!5e0!3m2!1sru!2ses!4v1759912703671!5m2!1sru!2ses"
+        width="600" height="450" style="border:0;" allowfullscreen loading="lazy"></iframe>
+    <label for="nombre">Introduce tu nombre</label>
+    <input type="text" id="nombre">
+    <label for="email">Introduce tu email</label>
+    <input type="text" id="email">
+    <label for="mensaje">Introduce tu mensaje</label>
+    <textarea id="mensaje"></textarea>
+</section>
+</main>
+
+<footer>
+    <a href="#">Telegram</a>
+    <a href="https://github.com/Sagmanua">GitHub</a>
+</footer>
+</body>
+</html>

@@ -1,0 +1,300 @@
+```
+<!-- 
+    003 Identificacion de etiquetas y atribuos  
+    (c) Bogdan Sydorenko
+    
+    Que hago:
+    1.Crear un structura basica
+    2.Hacer el código que contiene el formulario
+    2.1 Cambia el atributo action
+    2.2 Añade diferente campos 
+    3.Añade un comentario y  enlaces a redes sociales usando etiquetas
+    4.Crear un cabecera con titulo un sublilulo 
+    5.Añade secciones vasias sobre mi 
+
+-->
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Mi primer sitio web</title>
+    </head>
+    <body>
+        <header>
+     <!-- Esto es la cabecera de la página -->
+                <h1>Bohdan Sydorenko</h1>
+                <h2>Estudiante DAM en CEAC FP Valencia  </h2>             
+            </header>
+            <main>
+      <!-- Esto es el contenido principal -->
+        <section>
+            <h3>Inicio</h3>
+                <p>Bienvenido/a a mi página personal. Soy estudiante del ciclo formativo de Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM) en CEAC FP Valencia. En este espacio comparto mis proyectos, aprendizajes y avances dentro del mundo del desarrollo y el diseño digital.</p>
+
+        </section>
+
+        <section>
+            <h3>Sobre mí</h3>
+            <p>Soy un estudiante apasionado por la tecnología, la programación y el diseño de interfaces. 
+            Me interesa especialmente el desarrollo de aplicaciones móviles y de escritorio, 
+            así como la creación de soluciones innovadoras que mejoren la experiencia de los usuarios. 
+            Mi objetivo es seguir creciendo profesionalmente en el ámbito del desarrollo de software y 
+            la creatividad digital.</p>
+        </section>
+
+        <section>
+            <h3>Docencia</h3>
+            <p>Actualmente me encuentro en proceso de formación en CEAC FP Valencia, 
+                donde he adquirido conocimientos en programación, bases de datos, entornos de desarrollo, 
+                sistemas informáticos y diseño de interfaces. A través de los módulos del ciclo, 
+                he aprendido a trabajar con lenguajes como Java, Kotlin y SQL, así como a 
+                aplicar buenas prácticas de desarrollo.</p>
+        </section>
+
+        <section>
+            <h3>Diseño</h3>
+            <p>Además de la programación, me interesa el diseño digital y la experiencia de usuario (UX/UI). 
+                Disfruto creando interfaces intuitivas, limpias y atractivas que faciliten la interacción del 
+                usuario con las aplicaciones. Utilizo herramientas como Figma, Adobe XD y Photoshop para 
+                conceptualizar y prototipar mis ideas antes de llevarlas a código.</p>
+        </section>
+            </main>
+        
+    <!---Formulario-->
+        <form action="procesar.php" method="post" >
+            <label for="nombre">Introduce tu nombre</label>
+            <input type="text" id="nombre">
+
+            <label for="email">Introduce tu email</label>
+            <input type="email" id="email">
+
+            <label for="mensaje">Introduce tu mensaje</label>
+            <textarea id="mensaje"></textarea>
+
+            <label for="asunto">Asunto</label>
+            <input type="text" id="asunto" name="asunto">
+            
+            <label>Motivo de contacto</label><br>
+            <input type="radio" id="consulta" name="motivo" value="Consulta">
+            <label for="consulta">Consulta</label><br>
+
+            <input type="radio" id="soporte" name="motivo" value="Soporte">
+            <label for="soporte">Soporte</label><br>
+
+            <input type="radio" id="otros" name="motivo" value="Otros">
+            <label for="otros">Otros</label><br><br>
+
+            <label for="mensaje">Introduce tu mensaje</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+
+          <input type="submit">
+
+        </form>
+        <footer>
+    <!--Añade comentarios -->
+                <a href="https://t.me/Sagmanua">Telegram</a>
+                <a href="https://github.com/Sagmanua">gitHub</a>
+                
+            </footer>
+ 
+</body>
+</html>
+```
+
+##1.-Indroduccion brece y contexalizacion
+---
+En este partica vamos practira al Dubdamental de HTML como completar estos pasos, tendrás una práctica sólida del uso de formularios en HTML y la capacidad de modificar y extender contenido web de manera efectiva. 
+
+
+
+##2.-Desarrollo técnico correcto y preciso
+---
+1.Crear un structura basica para trabajar luego con esto 
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Añade tu contenido aquí -->
+  </head>
+  <body>
+    <!-- Añade tu contenido aquí -->
+  </body>
+</html>
+```
+
+2.Hacer el código que contiene el formulario para persona que entre en website puede enviar su feedback sobre este pagina 
+    2.1 Cambia el atributo action para gurdar qye usario enviar 
+    2.2 Añade diferente campos para pesona ouede mejorar su feedback
+```
+<form action="procesar.php" method="post" >
+            <label for="nombre">Introduce tu nombre</label>
+            <input type="text" id="nombre">
+
+            <label for="email">Introduce tu email</label>
+            <input type="email" id="email">
+
+            <label for="mensaje">Introduce tu mensaje</label>
+            <textarea id="mensaje"></textarea>
+
+            <label for="asunto">Asunto</label>
+            <input type="text" id="asunto" name="asunto">
+            
+            <label>Motivo de contacto</label><br>
+            <input type="radio" id="consulta" name="motivo" value="Consulta">
+            <label for="consulta">Consulta</label><br>
+
+            <input type="radio" id="soporte" name="motivo" value="Soporte">
+            <label for="soporte">Soporte</label><br>
+
+            <input type="radio" id="otros" name="motivo" value="Otros">
+            <label for="otros">Otros</label><br><br>
+
+            <label for="mensaje">Introduce tu mensaje</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+
+          <input type="submit">
+
+       
+```
+3.Añade un comentario y  enlaces a redes sociales usando etiquetas usario puede escriber directamente a mi o ve mis otros trabajos que yo hace 
+```
+<footer>
+    <!--Añade comentarios -->
+                <a href="https://t.me/Sagmanua">Telegram</a>
+                <a href="https://github.com/Sagmanua">gitHub</a>
+                
+        </footer>
+```
+4.Crear un cabecera con titulo un sublilulo para hente puede saber sobre que este pagina 
+```
+<header>
+     <!-- Esto es la cabecera de la página -->
+    <h1>Bohdan Sydorenko</h1>
+    <h2>Estudiante DAM en CEAC FP Valencia</h2>             
+</header>
+
+```
+5.Añade secciones vasias sobre mi.Este es main parte de pagina que contiene todo informacion de pagina 
+```
+ <form action="procesar.php" method="post" >
+            <label for="nombre">Introduce tu nombre</label>
+            <input type="text" id="nombre">
+
+            <label for="email">Introduce tu email</label>
+            <input type="email" id="email">
+
+            <label for="mensaje">Introduce tu mensaje</label>
+            <textarea id="mensaje"></textarea>
+
+            <label for="asunto">Asunto</label>
+            <input type="text" id="asunto" name="asunto">
+            
+            <label>Motivo de contacto</label><br>
+            <input type="radio" id="consulta" name="motivo" value="Consulta">
+            <label for="consulta">Consulta</label><br>
+
+            <input type="radio" id="soporte" name="motivo" value="Soporte">
+            <label for="soporte">Soporte</label><br>
+
+            <input type="radio" id="otros" name="motivo" value="Otros">
+            <label for="otros">Otros</label><br><br>
+
+            <label for="mensaje">Introduce tu mensaje</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+
+          <input type="submit">
+
+```
+
+##-3.-Aplicacion practica
+---
+```
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Mi primer sitio web</title>
+    </head>
+    <body>
+        <header>
+     <!-- Esto es la cabecera de la página -->
+                <h1>Bohdan Sydorenko</h1>
+                <h2>Estudiante DAM en CEAC FP Valencia  </h2>             
+            </header>
+            <main>
+      <!-- Esto es el contenido principal -->
+        <section>
+            <h3>Inicio</h3>
+                <p>Bienvenido/a a mi página personal. Soy estudiante del ciclo formativo de Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM) en CEAC FP Valencia. En este espacio comparto mis proyectos, aprendizajes y avances dentro del mundo del desarrollo y el diseño digital.</p>
+
+        </section>
+
+        <section>
+            <h3>Sobre mí</h3>
+            <p>Soy un estudiante apasionado por la tecnología, la programación y el diseño de interfaces. 
+            Me interesa especialmente el desarrollo de aplicaciones móviles y de escritorio, 
+            así como la creación de soluciones innovadoras que mejoren la experiencia de los usuarios. 
+            Mi objetivo es seguir creciendo profesionalmente en el ámbito del desarrollo de software y 
+            la creatividad digital.</p>
+        </section>
+
+        <section>
+            <h3>Docencia</h3>
+            <p>Actualmente me encuentro en proceso de formación en CEAC FP Valencia, 
+                donde he adquirido conocimientos en programación, bases de datos, entornos de desarrollo, 
+                sistemas informáticos y diseño de interfaces. A través de los módulos del ciclo, 
+                he aprendido a trabajar con lenguajes como Java, Kotlin y SQL, así como a 
+                aplicar buenas prácticas de desarrollo.</p>
+        </section>
+
+        <section>
+            <h3>Diseño</h3>
+            <p>Además de la programación, me interesa el diseño digital y la experiencia de usuario (UX/UI). 
+                Disfruto creando interfaces intuitivas, limpias y atractivas que faciliten la interacción del 
+                usuario con las aplicaciones. Utilizo herramientas como Figma, Adobe XD y Photoshop para 
+                conceptualizar y prototipar mis ideas antes de llevarlas a código.</p>
+        </section>
+            </main>
+        
+    <!---Formulario-->
+        <form action="procesar.php" method="post" >
+            <label for="nombre">Introduce tu nombre</label>
+            <input type="text" id="nombre">
+
+            <label for="email">Introduce tu email</label>
+            <input type="email" id="email">
+
+            <label for="mensaje">Introduce tu mensaje</label>
+            <textarea id="mensaje"></textarea>
+
+            <label for="asunto">Asunto</label>
+            <input type="text" id="asunto" name="asunto">
+            
+            <label>Motivo de contacto</label><br>
+            <input type="radio" id="consulta" name="motivo" value="Consulta">
+            <label for="consulta">Consulta</label><br>
+
+            <input type="radio" id="soporte" name="motivo" value="Soporte">
+            <label for="soporte">Soporte</label><br>
+
+            <input type="radio" id="otros" name="motivo" value="Otros">
+            <label for="otros">Otros</label><br><br>
+
+            <label for="mensaje">Introduce tu mensaje</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+
+          <input type="submit">
+
+        </form>
+        <footer>
+    <!--Añade comentarios -->
+                <a href="https://t.me/Sagmanua">Telegram</a>
+                <a href="https://github.com/Sagmanua">gitHub</a>
+                
+            </footer>
+ 
+</body>
+</html>
+```
+
+##4.-Cierre/Conclusión enlazando con la unidad
+---
+En conclusion esta practica ha permito aplicar de manera a concreta los conceptos estudiados en la unidad sobre estructuras HTML y formularios web.Nos aprende como crear aprender cosas como formulario ,comentarios,cabecera,contiento pricipal

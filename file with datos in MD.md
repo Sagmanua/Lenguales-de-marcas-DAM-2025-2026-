@@ -1,11 +1,9 @@
-##1.-Indroduccion brece y contexalizacion
----
+## Indroduccion brece y contexalizacion
 
 
 
 
-##2.-Desarrollo técnico correcto y preciso
----
+## Desarrollo técnico correcto y preciso
 1.
 ```
 
@@ -35,11 +33,10 @@
   
 ```
 
-##-3.-Aplicacion practica
----
+## Codigo completa
 ```
 
 ```
 
-##4.-Cierre/Conclusión enlazando con la unidad
----
+## 4.-Cierre/Conclusión enlazando con la unidad
+

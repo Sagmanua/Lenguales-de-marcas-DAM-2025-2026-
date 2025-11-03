@@ -1,3 +1,4 @@
+```
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -45,12 +46,12 @@
                 <hr style="border: 2px solid black;">
 
                 <ul>
-                    <li>Número de teléfono/li>
-                    <P>645573661</P>
+                    <li>Phone</li>
+                    <P>664553892</P>
                     <li>Email</li>
-                    <p>Sidorenko.bohdan.05@gmailc.com
+                    <p>Nose@gmail.com
                     <li>Adress</li>
-                    <p>Valencia Malvarosa
+                    <p>Valencia calle no se 
                     <li><a href="https://github.com/Sagmanua"  style=”text-decoration:none” >Git hub</a></li>
                     <p>Git hub con mis trabojos</p>
                     <p>https://github.com/Sagmanua</p>
@@ -58,7 +59,7 @@
                 </ul>
             
     
-            <h3>Idiomas</h3>
+            <h3>Language</h3>
             <hr style="border: 2px solid black;">
 
                 <ul>
@@ -91,8 +92,6 @@
 
            <div class="experencia"></div>
            <H3>UNIVERSIDADES BORCELLE</H3>
-            <hr style="border: 2px solid black;">
-
             <ul>
                     <li>2025-actulidad</li>
                     <p>Deserolla de aplicaciones multi platforfa</p>
@@ -100,8 +99,6 @@
             <H3>
                 ESCUELA SECUNDARIA BORCELLE
             </H3>
-            <hr style="border: 2px solid black;">
-
             <ul>
                 <li>
                     <p>Volutario en Educaion Infantil
@@ -113,15 +110,15 @@
             <hr style="border: 2px solid black;">
                 <ul>
                     <li>Python</li>
-                        <p>Puedo crear una calculadora, un generador de contraseñas o un web scraper</p>
+                        <p>I can do building a calculator, a password generator, or a web scraper</p>
                     <li>Java</li>
-                        <p>Puedo escribir código limpio, ayudar a depurar y solucionar problemas, escribir pruebas unitarias y colaborar con desarrolladores senior en el desarrollo de nuevas funcionalidades y el mantenimiento.
+                        <P>I can do write clean code, help debug and fix issues, write unit tests, and collaborate with senior developers on features and maintenance.</P>
                     <li>Mysql</li>
-                        <p>Puedo crear y manipular tablas, escribir consultas SQL para la recuperación y modificación de datos, y comprender los fundamentos del diseño de bases de datos.
+                        <p>I can do creating and manipulating tables, writing SQL queries for data retrieval and modification, and understanding database design fundamentals.</p>
                     <li>Html</li>
-                        <p>Sé escribir HTML. HTML es fundamental para una web. Sin saber HTML, no se pueden mostrar datos en la web.</p>
+                        <p>I know how to write HTML. HTML is the core thing for a web. Without knowing HTML, you cannot display the data in the WEB.</p>
                     <li>Css</li>
-                        <p>Sé cómo dar estilo a tu HTML con CSS. El estilo es muy importante en la web. Permite que el usuario perciba tu sitio web y que se sienta cómodo al usarlo.</p>
+                        <p>I know how to style your HTML with a CSS. Styling is very important in WEB. It let your user feel the your web and it makes them comfortable using your website.</p>
                 </ul>
             </div>
             
@@ -129,3 +126,4 @@
     </body>
 
 </html>
+```

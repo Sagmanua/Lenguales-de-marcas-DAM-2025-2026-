@@ -1,0 +1,352 @@
+
+## Indroduccion brece y contexalizacion
+En esta actividad se practica el uso de hojas de estilo CSS internas para modificar la apariencia de una página web creada con HTML. El objetivo es aprender cómo los estilos influyen en la presentación visual de los elementos, aplicando propiedades como color, tamaño de fuente, alineación del texto y tipografía.
+
+
+
+## Desarrollo técnico correcto y preciso
+### Al primro voy a copiar codigo de github `jocarsa` al archivo `008-color de fondo.html` 
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Jose Vicente Carratala</title>
+    <meta charset="utf-8">
+    <!-- Etiquetas de posicionamiento -->
+    <meta name="description" content="Web de Jose Vicente Carratala, Formador, programador y diseñador">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="keywords" content="programación,curso,diseño,IA,big data,...">
+     <meta name="author" content="José Vicente Carratalá Sanchis">
+     <link rel="icon" href="josevicenteicono.jpg" type="image/jpeg">
+     <meta property="og:title" content="Jose Vicente Carratala">
+     <meta property="og:description" content="Web de Jose Vicente Carratala, Formador, programador y diseñador">
+     <meta property="og:image" content="josevicenteicono.jpg">
+     <meta property="og:url" content="https://jocarsa.com">
+     <meta property="og:type" content="website">
+     <style>
+        h1,h2,h3{
+          color:indigo;
+        }
+        body{
+          background:GhostWhite;
+        }
+     </style>
+  </head>
+  <body>
+    <header>
+      <!-- Esto es la cabecera de la página -->
+      <h1>Jose Vicente Carratala</h1>
+      <h2>Profesor, desarrollador y diseñador</h2>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobremi">Sobre mi</a></li>
+          <li><a href="#docencia">Docencia</a></li>
+          <li><a href="#desarrollo">Desarrollo</a></li>
+          <li><a href="#diseño">Diseño</a></li>
+          <li><a href="#portafolio">Portafolio</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <!-- Esto es el contenido principal -->
+      <section id="inicio">
+        <h3>Inicio</h3>
+        <img src="josevicente.jpg" alt="Jose Vicente Carratala">
+      </section>
+       <section id="sobremi">
+        <h3>Sobre mi</h3>
+        <p>Soy Jose Vicente Carratala, un profesional apasionado por la tecnología, la formación y la creatividad digital. A lo largo de mi trayectoria, he trabajado en diversas áreas relacionadas con el desarrollo de software, la enseñanza de programación y la creación de contenidos visuales en 3D. Mi objetivo es ofrecer soluciones innovadoras y efectivas en el mundo de la tecnología y la formación.</p>
+      </section>
+       <section id="docencia">
+        <h3>Docencia</h3>
+        <div class="bloque">
+          <img src="josevicenteicono.jpg">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </section>
+       <section id="desarrollo">
+        <h3>Desarrollo</h3>
+        <div class="bloque">
+          <img src="josevicenteicono.jpg">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </section>
+       <section id="diseno">
+        <h3>Diseño</h3>
+        <div class="bloque">
+          <img src="josevicenteicono.jpg">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </section>
+       <section id="portafolio">
+        <h3>Portafolio</h3>
+        <div id="portafolio">
+          <article>
+             <h4>Elemento de portafolio</h4>
+             <p>Descripción del elemento</p>
+             <img src="josevicenteicono.jpg">
+          </article>
+          <article>
+             <h4>Elemento de portafolio</h4>
+             <p>Descripción del elemento</p>
+             <img src="josevicenteicono.jpg">
+          </article>
+          <article>
+             <h4>Elemento de portafolio</h4>
+             <p>Descripción del elemento</p>
+             <img src="josevicenteicono.jpg">
+          </article>
+        </div>
+      </section>
+       <section id="contacto">
+        <h3>Contacto</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d414497.63064825995!2d-1.0295638937500018!3d39.168675474193435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2ses!4v1759912118914!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form>
+          <label for="nombre">Introduce tu nombre</label>
+          <input type="text" id="nombre">
+          <label for="email">Introduce tu email</label>
+          <input type="email" id="email">
+          <label for="mensaje">Introduce tu mensaje</label>
+          <textarea id="mensaje"></textarea>
+          <input type="submit">
+        </form>
+      </section>
+    </main>
+    
+    <footer>
+      <!-- Esto es el pié de página -->
+      <a href="https://facebook.com/carratala">Facebook</a>
+      <a href="https://instagram.com/jvcarratala">Instagram</a>
+      <a href="https://github.com/jocarsa">GitHub</a>
+      <a href="https://linkedin.com/jvcarratala">LinkedIn</a>
+    </footer>
+  </body>
+</html>
+```
+### ok depues de esto cambiar de css que descibe este ejercio 
+```
+<style>
+        h1,h2,h3{
+          color:indigo;
+        }
+        body{
+          background:GhostWhite;
+        }
+     </style>  
+```
+### al primero voy a cambiar color de texto de `h1` ,`h2`,`h3`
+```
+<style>
+h1{
+    color: brown;
+    }
+h2{
+    color:aqua;
+    }
+h3{
+    color: chartreuse;
+    }
+</stule>
+```
+
+### Cambair a tamoño de texto en `h1` ,`h2`,`p`
+```
+<style>
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+}
+p {
+    font-size: 16px;
+}
+</style>
+``` 
+### para controlar la alineación horizontal del contenido en línea dentro de un elemento de nivel de bloque usa `text-align` en `div` en `bloque`,`diseno`,`sobremi`,`portafolio`
+
+```
+<style>
+div.bloque {
+    text-align: center;
+}
+div.diseno {
+    text-align: left;
+    }
+div.sobremi {
+    text-align: right;
+} 
+div.portafolio {
+    text-align: justify;
+} 
+```
+### aqui cambia a estilo de texto a `Spooky.otf` en todo de `<body>`
+``` 
+<style>
+@font-face {
+    font-family:"ubuntu";
+    src: url(Baby\ Spooky.otf);
+} 
+body{
+    background:GhostWhite;
+    font-family:ubuntu;
+        }
+</style>
+```
+## Codigo completa
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Jose Vicente Carratala</title>
+    <meta charset="utf-8">
+    <!-- Etiquetas de posicionamiento -->
+    <meta name="description" content="Web de Jose Vicente Carratala, Formador, programador y diseñador">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="keywords" content="programación,curso,diseño,IA,big data,...">
+     <meta name="author" content="José Vicente Carratalá Sanchis">
+     <link rel="icon" href="josevicenteicono.jpg" type="image/jpeg">
+     <meta property="og:title" content="Jose Vicente Carratala">
+     <meta property="og:description" content="Web de Jose Vicente Carratala, Formador, programador y diseñador">
+     <meta property="og:image" content="josevicenteicono.jpg">
+     <meta property="og:url" content="https://jocarsa.com">
+     <meta property="og:type" content="website">
+     <style>
+        h1{
+            color: brown;
+        }
+        h2{
+            color:aqua;
+        }
+        h3{
+            color: chartreuse;
+        }
+        h1 {
+        font-size: 40px;
+        }
+        h2 {
+        font-size: 30px;
+        }
+        p {
+        font-size: 16px;
+        }
+        div.bloque {
+        text-align: center;
+        }
+        div.diseno {
+        text-align: left;
+        }
+        div.sobremi {
+        text-align: right;
+        } 
+        div.portafolio {
+        text-align: justify;
+        } 
+        @font-face {
+                    font-family:"ubuntu";
+                    src: url(Baby\ Spooky.otf);
+                } 
+        body{
+          background:GhostWhite;
+          font-family:ubuntu;
+        }
+     </style>
+  </head>
+  <body>
+    <header>
+      <!-- Esto es la cabecera de la página -->
+      <h1>Jose Vicente Carratala</h1>
+      <h2>Profesor, desarrollador y diseñador</h2>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobremi">Sobre mi</a></li>
+          <li><a href="#docencia">Docencia</a></li>
+          <li><a href="#desarrollo">Desarrollo</a></li>
+          <li><a href="#diseño">Diseño</a></li>
+          <li><a href="#portafolio">Portafolio</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Esto es el contenido principal -->
+      <section id="inicio">
+        <h3>Inicio</h3>
+        <img src="josevicente.jpg" alt="Jose Vicente Carratala">
+      </section>
+       <section id="sobremi">
+        <h3>Sobre mi</h3>
+        <p>Soy Jose Vicente Carratala, un profesional apasionado por la tecnología, la formación y la creatividad digital. A lo largo de mi trayectoria, he trabajado en diversas áreas relacionadas con el desarrollo de software, la enseñanza de programación y la creación de contenidos visuales en 3D. Mi objetivo es ofrecer soluciones innovadoras y efectivas en el mundo de la tecnología y la formación.</p>
+      </section>
+       <section id="docencia">
+        <h3>Docencia</h3>
+        <div class="bloque">
+          <img src="josevicenteicono.jpg">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </section>
+       <section id="desarrollo">
+        <h3>Desarrollo</h3>
+        <div class="bloque">
+          <img src="josevicenteicono.jpg">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </section>
+       <section id="diseno">
+        <h3>Diseño</h3>
+        <div class="bloque">
+          <img src="josevicenteicono.jpg">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </section>
+       <section id="portafolio">
+        <h3>Portafolio</h3>
+        <div id="portafolio">
+          <article>
+             <h4>Elemento de portafolio</h4>
+             <p>Descripción del elemento</p>
+             <img src="josevicenteicono.jpg">
+          </article>
+          <article>
+             <h4>Elemento de portafolio</h4>
+             <p>Descripción del elemento</p>
+             <img src="josevicenteicono.jpg">
+          </article>
+          <article>
+             <h4>Elemento de portafolio</h4>
+             <p>Descripción del elemento</p>
+             <img src="josevicenteicono.jpg">
+          </article>
+        </div>
+      </section>
+       <section id="contacto">
+        <h3>Contacto</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d414497.63064825995!2d-1.0295638937500018!3d39.168675474193435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2ses!4v1759912118914!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form>
+          <label for="nombre">Introduce tu nombre</label>
+          <input type="text" id="nombre">
+          <label for="email">Introduce tu email</label>
+          <input type="email" id="email">
+          <label for="mensaje">Introduce tu mensaje</label>
+          <textarea id="mensaje"></textarea>
+          <input type="submit">
+        </form>
+      </section>
+    </main>   
+    <footer>
+      <!-- Esto es el pié de página -->
+      <a href="https://facebook.com/carratala">Facebook</a>
+      <a href="https://instagram.com/jvcarratala">Instagram</a>
+      <a href="https://github.com/jocarsa">GitHub</a>
+      <a href="https://linkedin.com/jvcarratala">LinkedIn</a>
+    </footer>
+  </body>
+</html>
+```
+
+## 4.-Cierre/Conclusión enlazando con la unidad
+Con la realización de esta actividad se ha comprendido de forma práctica cómo el CSS permite separar la estructura del contenido (HTML) de su presentación visual. A través de la modificación de colores, tamaños de texto, alineaciones y fuentes, se ha visto cómo pequeños cambios en el código pueden transformar completamente la apariencia de una página web.

@@ -1,0 +1,17 @@
+Para practicar el concepto de hojas de estilo CSS y cómo aplicar estilos a elementos HTML internamente, sigue estos pasos:
+
+Abrir un archivo HTML en tu editor de código preferido (por ejemplo, Visual Studio Code, Sublime Text o cualquier otro que te guste).
+
+Copiar y pegar el contenido del archivo 008-color de fondo.html dentro de tu nuevo archivo HTML.
+
+Modifica los estilos internos para experimentar diferentes colores de fondo:
+
+Cambia el color de fondo del body a un tono que te guste.
+Experimenta con diferentes colores para los encabezados (h1, h2, h3) utilizando valores como red, green, blue o códigos hexadecimales.
+Guarda el archivo con un nombre descriptivo, por ejemplo, mi_pagina.html.
+
+Abre el archivo en tu navegador para ver los cambios y experimentar cómo se aplican los estilos internos.
+
+Repite el proceso modificando diferentes propiedades CSS como color, font-size, text-align para personalizar aún más la apariencia de tu página web.
+
+Recuerda que la práctica es clave para dominar estos conceptos. Intenta aplicar lo aprendido a diferentes elementos y experimenta con diversos valores para ver cómo afectan al diseño final de tu página.

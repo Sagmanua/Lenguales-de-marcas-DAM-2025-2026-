@@ -12,5 +12,5 @@
 #### `color` Define el color del texto dentro del elemento.
 #### `display` Define cómo se comporta un elemento en la página, es decir, cómo se muestra y cómo afecta al resto de elementos.
 #### `text-align` sirve para alinear el texto dentro de un elemento.
-#### 
 #### `grid-template-columns` define cuántas columnas tendrá tu grid y qué ancho tendrá cada una.
+#### `font-family`sirve para elegir la fuente (tipo de letra) que se usará en un texto.

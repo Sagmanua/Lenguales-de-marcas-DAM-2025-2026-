@@ -1,8 +1,8 @@
 ## CSS
-#### `grid-template-columns: 1fr 3fr`la columna del nav es más estrecha y la del main es más ancha.
-#### `gap: 20px`  espacio entre las áreas.
-#### `min-height: 100vh` ocupa todo el alto de la pantalla.
-#### `margin: 0`  sin márgenes en el body.
+#### `grid-template-columns`la columna del nav es más estrecha y la del main es más ancha.
+#### `gap`  espacio entre las áreas.
+#### `min-height` ocupa todo el alto de la pantalla.
+#### `margin`  sin márgenes en el body.
 #### `grid-area` sirve para asignar un elemento a una zona del grid definida con
 #### `background-color` para cambiar color del fondo 
 #### `flex` un modo de diseño que facilita alinear y distribuir elementos.
@@ -11,3 +11,6 @@
 #### `border` Agrega un borde alrededor del elemento.
 #### `color` Define el color del texto dentro del elemento.
 #### `display` Define cómo se comporta un elemento en la página, es decir, cómo se muestra y cómo afecta al resto de elementos.
+#### `text-align` sirve para alinear el texto dentro de un elemento.
+#### 
+#### `grid-template-columns` define cuántas columnas tendrá tu grid y qué ancho tendrá cada una.

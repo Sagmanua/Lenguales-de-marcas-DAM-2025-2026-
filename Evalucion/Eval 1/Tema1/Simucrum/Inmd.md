@@ -1,0 +1,125 @@
+# Indroduccion brece y contexalizacion
+
+
+
+
+# Desarrollo técnico correcto y preciso
+
+
+# Codigo completa
+```
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Examen</title>
+        <meta charset="utf-8">
+        <style>
+            body{background-color: antiquewhite;}
+            body{
+                text-align: center;
+            }
+            header,main,footer{
+                background-color: aquamarine;
+                padding: 20px;
+                width: 800px;
+                margin: auto;
+                text-align: center;
+            }
+            main{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                gap: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Bohdan Sydorenko</h1>
+        <h2>mailnose@mail.com</h2>
+    </body>
+    </header>
+    <main>
+      <article>
+        <p>Categoria</p>
+        <h3>Titulo</h3>
+        <p>Descripcion</p>
+        <img src="josevicente.jpg">
+      </article>
+      <article>
+        <p>Categoria</p>
+        <h3>Titulo</h3>
+        <p>Descripcion</p>
+        <img src="josevicente.jpg">
+      </article>
+      <article>
+        <p>Categoria</p>
+        <h3>Titulo</h3>
+        <p>Descripcion</p>
+        <img src="josevicente.jpg">
+      </article>
+      <article>
+        <p>Categoria</p>
+        <h3>Titulo</h3>
+        <p>Descripcion</p>
+        <img src="josevicente.jpg">
+      </article>
+      <article>
+        <p>Categoria</p>
+        <h3>Titulo</h3>
+        <p>Descripcion</p>
+        <img src="josevicente.jpg">
+      </article>
+      <article>
+        <p>Categoria</p>
+        <h3>Titulo</h3>
+        <p>Descripcion</p>
+        <img src="josevicente.jpg">
+      </article>
+      <article>
+        <p>Categoria</p>
+        <h3>Titulo</h3>
+        <p>Descripcion</p>
+        <img src="josevicente.jpg">
+      </article>
+      
+      <article>
+        <p>Categoria</p>
+        <h3>Titulo</h3>
+        <p>Descripcion</p>
+        <img src="josevicente.jpg">
+      </article><article>
+        <p>Categoria</p>
+        <h3>Titulo</h3>
+        <p>Descripcion</p>
+        <img src="josevicente.jpg">
+      </article>
+      <article>
+        <p>Categoria</p>
+        <h3>Titulo</h3>
+        <p>Descripcion</p>
+        <img src="josevicente.jpg">
+      </article>
+      <article>
+        <p>Categoria</p>
+        <h3>Titulo</h3>
+        <p>Descripcion</p>
+        <img src="josevicente.jpg">
+      </article>
+      
+      <article>
+        <p>Categoria</p>
+        <h3>Titulo</h3>
+        <p>Descripcion</p>
+        <img src="josevicente.jpg">
+      </article>
+    </main>
+    <footer>
+      (c) Bohdan Sydorenko
+    </footer>
+
+
+
+</html>
+```
+
+# Cierre/Conclusión enlazando con la unidad
+

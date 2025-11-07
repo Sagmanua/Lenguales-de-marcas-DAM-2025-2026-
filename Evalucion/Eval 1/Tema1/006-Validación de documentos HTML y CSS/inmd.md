@@ -39,6 +39,60 @@ Prueba y ajusta: Abre tu página en diferentes dispositivos y navegadores para a
 </head>
 ```
 ### Esribo `<body>` que es contiene todo lo que se muestra en la pantalla: encabezado, menú, contenido principal y pie de página
+```
+<body>
+    <header>Encabezado</header>
+    <nav>Menú Navegación</nav>
+    <main>
+        <section class="item">Sección 1</section>
+        <section class="item">Sección 2</section>
+        <section class="item">Sección 3</section>
+    </main>
+    <footer>Pie de página</footer>
+</body>
+```
+## CSS 
+### Body 
+#### `grid-template-columns: 1fr 3fr`la columna del nav es más estrecha y la del main es más ancha.
+#### `gap: 20px`  espacio entre las áreas.
+#### `min-height: 100vh` ocupa todo el alto de la pantalla.
+#### `margin: 0`  sin márgenes en el body.
+body {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "nav main"
+        "footer footer";
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    min-height: 100vh;
+    margin: 0;
+}
+### En `header`,`nav`,`main`,`footer`
+#### `grid-area` sirve para asignar un elemento a una zona del grid definida con
+#### `background-color` para cambiar color del fondo 
+```
+header {
+    grid-area: header;
+    background-color: #f1f1f1;
+}
+
+nav {
+    grid-area: nav;
+    background-color: #ddd;
+}
+
+main {
+    grid-area: main;
+    background-color: #fff;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #f1f1f1;
+}
+```
+
 # Codigo completa
 ## HTML
 ```

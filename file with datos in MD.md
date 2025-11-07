@@ -1,9 +1,9 @@
-## Indroduccion brece y contexalizacion
+# Indroduccion brece y contexalizacion
 
 
 
 
-## Desarrollo técnico correcto y preciso
+# Desarrollo técnico correcto y preciso
 1.
 ```
 
@@ -33,10 +33,10 @@
   
 ```
 
-## Codigo completa
+# Codigo completa
 ```
 
 ```
 
-## 4.-Cierre/Conclusión enlazando con la unidad
+# 4.-Cierre/Conclusión enlazando con la unidad
 
